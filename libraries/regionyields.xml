@@ -1,0 +1,48 @@
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<regionyields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regionyields.xsd">
+		<resource ware="ore" scaneffect="scfx_result_region_ore_01" scaneffectdensity="0.003">
+			<yield name="lowest" resourcedensity="0.065" replenishtime="60" scaneffectintensity="0.1" />
+			<yield name="verylow" resourcedensity="0.15" replenishtime="120" scaneffectintensity="0.1" />
+			<yield name="low" resourcedensity="1.5" replenishtime="180" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="15" replenishtime="240" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="150" replenishtime="360" scaneffectintensity="0.3" />
+			<yield name="veryhigh" resourcedensity="150000" replenishtime="2400" scaneffectintensity="1.0" />
+		</resource>
+		<resource ware="silicon" scaneffect="scfx_result_region_silicon_01" scaneffectdensity="0.003">
+			<yield name="lowest" resourcedensity="0.045" replenishtime="60" scaneffectintensity="0.1" />
+			<yield name="verylow" resourcedensity="0.15" replenishtime="120" scaneffectintensity="0.1" />
+			<yield name="low" resourcedensity="1.5" replenishtime="180" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="15" replenishtime="240" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="150" replenishtime="360" scaneffectintensity="0.3" />
+			<yield name="veryhigh" resourcedensity="150000" replenishtime="3600" scaneffectintensity="1.0" />
+		</resource>
+		<resource ware="ice" scaneffect="scfx_result_region_ice_01" scaneffectdensity="0.003">
+			<yield name="verylow" resourcedensity="0.25" replenishtime="18" scaneffectintensity="0.1" />
+			<yield name="low" resourcedensity="2.5" replenishtime="30" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="25" replenishtime="60" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="250" replenishtime="48" scaneffectintensity="0.3" />
+			<yield name="veryhigh" resourcedensity="2500" replenishtime="240" scaneffectintensity="0.3" />
+		</resource>
+		<resource ware="nividium" scaneffect="" scaneffectdensity="0.001">
+			<yield name="low" resourcedensity="0.0025" replenishtime="504" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="0.025" replenishtime="1008" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="0.25" replenishtime="2016" scaneffectintensity="0.3" />
+			<yield name="veryhigh" resourcedensity="2.5" replenishtime="4032" scaneffectintensity="1.0" />
+		</resource>
+		<resource ware="hydrogen" scaneffect="" scaneffectdensity="0.001">
+			<yield name="low" resourcedensity="2000" replenishtime="30" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="15000" replenishtime="60" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="140000" replenishtime="480" gatherspeedfactor="4.0" scaneffectintensity="0.3" />
+		</resource>
+		<resource ware="helium" scaneffect="" scaneffectdensity="0.001">
+			<yield name="low" resourcedensity="1500" replenishtime="30" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="9000" replenishtime="60" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="90000" replenishtime="360" gatherspeedfactor="4.0" scaneffectintensity="0.3" />
+		</resource>
+		<resource ware="methane" scaneffect="" scaneffectdensity="0.001">
+			<yield name="low" resourcedensity="1300" replenishtime="30" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="medium" resourcedensity="13000" replenishtime="60" gatherspeedfactor="1.0" scaneffectintensity="0.1" />
+			<yield name="high" resourcedensity="130000" replenishtime="480" gatherspeedfactor="4.0" scaneffectintensity="0.3" />
+		</resource>
+	</regionyields>
+</diff>
